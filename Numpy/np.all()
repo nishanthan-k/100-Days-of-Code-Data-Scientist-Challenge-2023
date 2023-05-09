@@ -1,5 +1,5 @@
 np.all()
-    np.all() return true if all the elements in the array are logically true else it returns false
+    np.all() return true if all the elements in the array are logically true else it returns false. It returns false only if the array contains boolean false or 0. It returns true even it contains negative integers like -1,-2 ect.
 
 
 Exercise :
