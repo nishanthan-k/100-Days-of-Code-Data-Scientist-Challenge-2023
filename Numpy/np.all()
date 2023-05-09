@@ -39,9 +39,15 @@ C: False
 D: True
 
 
-Solution :
+Solution 1:
 
 print("A:", np.all(A))
 print("B:", np.all(B))
 print("C:", np.all(C))
 print("D:", np.all(D))
+
+
+Solution 2:
+
+for name,array in zip(list('ABCD'), [A,B,C,D]):
+    print(f'{name}:{np.all(array)}')
