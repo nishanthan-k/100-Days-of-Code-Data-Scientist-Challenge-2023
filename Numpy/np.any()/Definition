@@ -1,0 +1,4 @@
+np.any()
+    np.any() function returns true if any one of the value in the array or in the mentioned axis is true.
+    If all the values or false, it returns false
+    If the negative value is in the array, it doesn't affect the output which means negative value also considered to be as positive value
