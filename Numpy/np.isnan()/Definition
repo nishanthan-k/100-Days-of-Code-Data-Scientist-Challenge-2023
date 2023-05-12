@@ -1,0 +1,2 @@
+np.isnan()
+    np.isnan() function tests element-wise whether it is NaN or not and returns the result as a boolean array.
