@@ -1,0 +1,2 @@
+np.full()
+  np.full(shape, fill_value, dtype = None, order = ‘C’) : Return a new array with the same shape and type as a given array filled with a fill_value.
