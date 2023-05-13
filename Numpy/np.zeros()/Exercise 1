@@ -10,6 +10,11 @@ Expected result:
  [0 0 0 0]]
  
  
- Solution :
+ Solution 1:
  
  print(np.zeros([4, 4], dtype = int))
+
+
+Solution 2:
+
+print(np.zeros(shape=(4, 4), dtype='int'))
