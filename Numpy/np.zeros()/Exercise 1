@@ -1,0 +1,15 @@
+Using Numpy create a 4x4 array filled with zeros (set data type to int). In response print this array to the console.
+
+Tip: Use the np.zeros() function.
+
+Expected result:
+
+[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]
+ 
+ 
+ Solution :
+ 
+ print(np.zeros([4, 4], dtype = int))
