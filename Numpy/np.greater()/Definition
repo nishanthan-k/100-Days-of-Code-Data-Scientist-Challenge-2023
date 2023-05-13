@@ -1,0 +1,2 @@
+np.greater()
+    np.greater() function returns true if value in array A is strictly greater than value in array B
