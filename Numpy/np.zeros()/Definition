@@ -1,0 +1,5 @@
+np.zeros()
+    It is used to create and fill an numpy array with value zero.
+    It create an one dimensional array by default np.zeros(4)
+    If you want multi dimensional array then you need to code like np.zeros([4,4])
+    It will create the array with flaot values by default. In case you want it in int then use np.zeros(4, dtype = int)
