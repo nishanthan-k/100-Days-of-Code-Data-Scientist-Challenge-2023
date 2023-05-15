@@ -15,7 +15,21 @@ Note that the shape of this array is (9, 10). In response, print array to the co
 
 Tip: Use the np.arange() function and the np.ndarray.reshape() method.
 
-Solution:
+
+
+Solution 1:
 
 import numpy as np
 print(np.arange(10, 100).reshape(9, 10))
+
+
+Solution 2:
+
+import numpy as np
+print(np.arange(10, 100).reshape(-1, 10)) 
+
+
+Solution 3:
+
+import numpy as np
+print(np.arange(10, 100).reshape(9, -1)) 
