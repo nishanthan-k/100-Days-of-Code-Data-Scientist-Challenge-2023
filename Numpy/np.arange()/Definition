@@ -1,0 +1,2 @@
+np.arange()
+     It will return the continuous array with start, stop and step value
