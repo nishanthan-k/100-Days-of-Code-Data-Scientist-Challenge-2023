@@ -1,0 +1,2 @@
+np.eye()
+    It is used to create the identity matrix in numpy
