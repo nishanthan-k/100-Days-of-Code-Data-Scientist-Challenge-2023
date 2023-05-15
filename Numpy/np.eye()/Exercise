@@ -21,4 +21,4 @@ print(np.eye(6, dtype=int))
 Solution 2:
 
 import numpy as np
-print(np.eye(N=6, dtype='int'))
+print(np.eye(N=6, dtype='int'))   # quotation for dtype is not needed but you can put it doesn't make any error
