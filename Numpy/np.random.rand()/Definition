@@ -1,0 +1,12 @@
+The numpy.random.rand() function creates an array of specified shape and fills it with random values. Syntax : 
+
+Syntax :
+numpy.random.rand(d0, d1, ..., dn)
+
+Parameters : 
+d0, d1, ..., dn : [int, optional]Dimension of the returned array we require, 
+     If no argument is given a single Python float is returned.
+
+Return : 
+Array of defined shape, filled with random values.
+Code 1 : Randomly constructing 1D array 
