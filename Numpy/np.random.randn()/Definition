@@ -1,0 +1,12 @@
+np.random.randn()
+    The numpy.random.randn() function creates an array of specified shape and fills it with random values as per standard normal distribution. 
+    
+Syntax :
+numpy.random.randn(d0, d1, ..., dn)
+
+Parameters : 
+d0, d1, ..., dn : [int, optional]Dimension of the returned array we require, If no argument is given a single Python float is returned.
+
+Return : 
+Array of defined shape, filled with random floating-point samples from 
+the standard normal distribution. 
