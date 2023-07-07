@@ -1,0 +1,5 @@
+np.linspace()
+      -> It returns the evenly spaced integers within the interval we specified
+      -> 3 main parameters (start, stop, num)
+      -> start is starting value, stop is ending value, num is value count how many values we need to print
+      -> Similar to np.arange
