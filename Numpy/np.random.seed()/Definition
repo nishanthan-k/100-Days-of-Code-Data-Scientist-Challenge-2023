@@ -1,0 +1,4 @@
+np.random.seed()
+      random() function is used to generate random numbers in Python. Not actually random, rather this is used to generate pseudo-random numbers. 
+      That implies that these randomly generated numbers can be determined. random() function generates numbers for some values. 
+      This value is also called seed value. 
