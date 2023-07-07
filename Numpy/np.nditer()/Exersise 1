@@ -1,0 +1,29 @@
+Exercise 1
+
+The following array is given:
+  
+  A = np.array([[1, 4, 3],
+                [5, 2, 6]])
+
+Iterate through this array and print each element to the console.
+
+Tip: Use the np.nditer() function.
+
+Expected result:
+
+    1
+    4
+    3
+    5
+    2
+    6
+
+Solution:
+
+import numpy as np 
+
+A = np.array([[1, 4, 3],
+              [5, 2, 6]])
+                  
+for i in np.nditer(A):
+    print(i)
