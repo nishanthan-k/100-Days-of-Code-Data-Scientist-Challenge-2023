@@ -1,0 +1,26 @@
+The following array:
+
+    array([[1., 1., 1., 1.],
+           [1., 1., 1., 1.],
+           [1., 1., 1., 1.],
+           [1., 1., 1., 1.]])
+
+transform to this array:
+
+    array([[0., 0., 0., 0., 0., 0.],
+           [0., 1., 1., 1., 1., 0.],
+           [0., 1., 1., 1., 1., 0.],
+           [0., 1., 1., 1., 1., 0.],
+           [0., 1., 1., 1., 1., 0.],
+           [0., 0., 0., 0., 0., 0.]])
+
+In response, print transformed array to the console.
+
+Solution:
+
+import numpy as np
+
+A = np.ones(16).reshape(-1, 4)
+
+A = np.pad(A, pad_width=1, constant_values=0)
+print(A)
