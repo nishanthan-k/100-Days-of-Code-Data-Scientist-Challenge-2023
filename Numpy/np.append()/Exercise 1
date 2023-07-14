@@ -1,0 +1,25 @@
+Combine the following arrays into one as shown below and print it to the console.
+
+A = np.arange(12).reshape(-1, 4)
+B = np.array([[4, 3, 7, 2],
+                  [0, 5, 2, 6]])
+
+Tip: Use the np.append() function.
+
+Expected result:
+    [[ 0  1  2  3]
+     [ 4  5  6  7]
+     [ 8  9 10 11]
+     [ 4  3  7  2]
+     [ 0  5  2  6]]
+
+Solution 1:
+
+import numpy as np
+
+A = np.arange(12).reshape(-1, 4)
+B = np.array([[4, 3, 7, 2],
+             [0, 5, 2, 6]])
+             
+C = np.append(A, B, axis=0)
+print(C)
