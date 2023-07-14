@@ -1,0 +1,55 @@
+The following array:
+    array([[0, 0, 0, 0, 0, 0],
+           [0, 0, 0, 0, 0, 0],
+           [0, 0, 0, 0, 0, 0],
+           [0, 0, 0, 0, 0, 0],
+           [0, 0, 0, 0, 0, 0],
+           [0, 0, 0, 0, 0, 0]])
+
+transform to the following:
+    array([[10,  0, 10,  0, 10,  0],
+           [ 5,  0,  5,  0,  5,  0],
+           [10,  0, 10,  0, 10,  0],
+           [ 5,  0,  5,  0,  5,  0],
+           [10,  0, 10,  0, 10,  0],
+           [ 5,  0,  5,  0,  5,  0]])
+In response, print transformed array to the console.
+
+Tip: Use the slice operator and assign the appropriate values.
+
+Expected output:
+    [[10  0 10  0 10  0]
+     [ 5  0  5  0  5  0]
+     [10  0 10  0 10  0]
+     [ 5  0  5  0  5  0]
+     [10  0 10  0 10  0]
+     [ 5  0  5  0  5  0]]
+
+
+Solution 1:
+
+import numpy as np
+
+A = np.zeros(shape=(6, 6), dtype='int')
+
+for i in range(len(A)):
+    for j in range(len(A[i])):
+        if i%2 == 0:
+            if j%2 == 0:
+                A[i][j] = 10
+        else:
+            if j%2 == 0:
+                A[i][j] = 5
+
+print(A)
+
+
+Solution 2:
+
+import numpy as np
+     
+A = np.zeros(shape=(6, 6), dtype='int')
+A[::2, ::2] = 10
+A[1::2, ::2] = 5
+     
+print(A)
