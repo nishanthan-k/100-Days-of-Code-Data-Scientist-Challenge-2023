@@ -1,0 +1,28 @@
+The following array is given:
+
+    A = np.array([[0.4, 0.3, 0.3],
+                 [0.1, 0.1, 0.8],
+                 [0.2, 0.5, 0.3]])
+
+Return a list of indexes with maximum values for each row from this array and print it to the console.
+
+Tip: Use the np.argmax() function.
+
+Expected result:
+
+    [0 2 1]
+
+
+Solution:
+
+import numpy as np
+
+A = np.array([[0.4, 0.3, 0.3],
+              [0.1, 0.1, 0.8],
+              [0.2, 0.5, 0.3]])
+
+B = np.array(np.argmax(A[0]))
+B = np.append(B, np.argmax(A[1]))
+B = np.append(B, np.argmax(A[2]))
+
+print(B)
